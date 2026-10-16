@@ -1,0 +1,22 @@
+
+
+Coupling and Cohesion 
+
+
+Unit: Any reasonably self-contained component of a program 
+
+Coupling: Coupling refers to the links between separate units of a program 
+
+	- Tight coupling: Two units depend heavily on eachother 
+	- Loose coupling: Two units don't depend heavily on eachother 
+
+Cohesion: Refers to the number and diversity of tasks that a single unit is responsible for 
+
+	- High cohesion: If a unit is responsible for a single task 
+	- Low cohesion: If a unit is supposed to do many things
+
+
+
+High cohesion and Loose coupling are the main goal. 
+
+

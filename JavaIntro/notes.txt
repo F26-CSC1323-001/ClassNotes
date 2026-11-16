@@ -1,0 +1,41 @@
+
+
+# Declaring variables
+
+Integers:
+
+int x; # initializes a variable x, but does not assign it
+int x = 567; # initializes a variable x and assigns it
+
+x = 600; # updates x to 600
+
+Doubles: # this is just a float
+
+double price = 9.99;
+
+Booleans:
+
+boolean done = false;
+
+Characters: 
+
+char grade = 'A'; # must use single quotes for exactly one character.
+
+
+Strings:
+
+String name = "Nikolas"; # strings go in double quotes
+
+
+
+Loops, Arrays, and Methods Translation Table:
+
+Python		|		Java
+for i in range(4):	|  for (int i = 0; i < 4; i++){}
+for s in scores:	|  for (int s : scores){}
+while x < 10:		|  while (x < 10){}
+if a and (or, not) b	|  if (a && b) / (a || b) / (!a)
+len(scores)		|  scores.length -- no parenthesis 
+len(name)		|  name.length() -- parenthesis on String
+scores.append(5)	|  nothing: arrays are fixed in size
+def avg(v)		|  public static double avg(int[] v){}
